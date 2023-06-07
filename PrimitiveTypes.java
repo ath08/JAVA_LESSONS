@@ -13,7 +13,25 @@ class PrimitiveTypes {
         System.out.println(max);
         //System.out.println(c);
 
+        // short data type is a 16-bit signed integer
+        // byte default value is 0
+        // min value is -32,768(-2^15)
+        // max value is 32,767 (2^15-1) 
+        
+        //short a = 15000;
+        //short b = -300;
 
+        short a = 15000;
+        short b = 300;
+
+        // short sum = a + b;
+        // short sub = a - b;
+
+        // System.out.print(sum);
+        // System.out.print(sub);
+
+        System.out.println(a);
+        System.out.println(b);
 
 
     }    
