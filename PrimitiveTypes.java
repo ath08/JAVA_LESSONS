@@ -74,6 +74,15 @@ class PrimitiveTypes {
 
         //note 1. an arbitrary integer number in java is an int
         //     2. an arbitrary rational number in java is double
+
+
+        //boolean *true/false
+
+        boolean isTrue = 5 > 8;
+        boolean isEqual = 8==8;
+
+        System.out.println(isTrue);
+        System.out.println(isEqual);
     }    
 
 }
