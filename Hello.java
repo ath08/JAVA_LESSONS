@@ -1,30 +1,26 @@
 class Hello {
-public static void main(String[] args){
-    System.out.println("Hello Anahit");
+    public static void main(String[] args){
 
-    String firstName = "Tatev";
-    String lastName = "Aslikyan";
+// perform mathematical operations
+        long num1 = 1500000L;
+        long num2 = 30L;
 
-    System.out.println(firstName + " " + lastName); 
+        long mult = num1 * num2;
+        long div = num1 / num2;
+        long sub = num1 - num2;
+        long sum = num1 + num2;
+        //boolean isTrue1 = num1 % 2;
+        boolean isTrue2 = mult < sum;
+
+        System.out.println(mult);
+        System.out.println(div);
+        System.out.println(sub);
+        System.out.println(sum);
+        //System.out.println(isTrue1);
+        System.out.println(isTrue2);
 
 
-    int age = 32; 
 
-    System.out.println("Tatev's age  " + " " + age);
-
-    int num1 = 15;
-    float num2 = 5.5f;
-
-    System.out.println(num1 + num2);
-
-    System.out.println(num1 == num2);
-
-    char z = 106+80;
-
-    System.out.println(z);
-
-    System.out.println(num1 != num2);
-
-}    
+    }    
 
 }
