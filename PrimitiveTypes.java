@@ -53,9 +53,19 @@ class PrimitiveTypes {
         long k = h++;
         //long q = k--:
 
-        System.out.println("h is " + h);
+        System.out.println("h is " + h); //why??
         System.out.println("k is " + k);
         //System.out.print(q);
+
+        //float 32-bite 
+        //default value is 0.0f
+
+        float f = 58.36f;
+
+        float g = -77748.2f;
+
+        System.out.println(f);
+        System.out.println(g);
     }    
 
 }
