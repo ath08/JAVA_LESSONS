@@ -83,6 +83,12 @@ class PrimitiveTypes {
 
         System.out.println(isTrue);
         System.out.println(isEqual);
+
+        char r = '$';
+        char u = '\u003F';
+
+        System.out.println(r);
+        System.out.println(u);
     }    
 
 }
