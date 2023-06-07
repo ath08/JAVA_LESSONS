@@ -33,6 +33,17 @@ class PrimitiveTypes {
         System.out.println(a);
         System.out.println(b);
 
+        // int data type is a 32-bit signed integer
+        // byte default value is 0
+        // min value is -2,147,483,648(-2^31)
+        // max value is 2,147,483,647 (2^31-1) 
+
+        int o = -2000000000;
+        int t = o + 2000000001;
+
+        System.out.println(o); 
+        System.out.println(t);
+
 
     }    
 
