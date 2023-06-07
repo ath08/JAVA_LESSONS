@@ -66,6 +66,14 @@ class PrimitiveTypes {
 
         System.out.println(f);
         System.out.println(g);
+
+        //double 64-bit
+
+        double w = 444.4444444;
+        System.out.println(w + 0.4);
+
+        //note 1. an arbitrary integer number in java is an int
+        //     2. an arbitrary rational number in java is double
     }    
 
 }
