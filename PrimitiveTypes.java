@@ -44,7 +44,18 @@ class PrimitiveTypes {
         System.out.println(o); 
         System.out.println(t);
 
+        // int data type is a 64-bit signed integer
+        // byte default value is 0L
+        // min value is -9,223,372,036,854,775,808(-2^63)
+        // max value is 9,223,372,036,854,775,807(2^63-1)
 
+        long h = 250005L;
+        long k = h++;
+        //long q = k--:
+
+        System.out.println("h is " + h);
+        System.out.println("k is " + k);
+        //System.out.print(q);
     }    
 
 }
