@@ -19,7 +19,12 @@ class Hello {
         //System.out.println(isTrue1);
         System.out.println(isTrue2);
 
+// print fullName 
+        String firstName = "Tatev";
+        String lastName = "Aslikyan";
+        String fullName = firstName + " " + lastName;
 
+        System.out.println("My fullName is " + fullName);
 
     }    
 
