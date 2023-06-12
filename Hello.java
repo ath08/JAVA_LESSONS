@@ -9,7 +9,7 @@ class Hello {
         long div = num1 / num2;
         long sub = num1 - num2;
         long sum = num1 + num2;
-        //boolean isTrue1 = num1 % 2;
+        //boolean isTrue1 == num1 % 2;
         boolean isTrue2 = mult < sum;
 
         System.out.println(mult);

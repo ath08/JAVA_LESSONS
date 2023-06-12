@@ -7,11 +7,11 @@ class PrimitiveTypes {
 
         byte max = 127; 
         byte min = -128;
-        //byte c = min + max; 
+        byte c = (byte)((byte)min + (byte)max); 
         
         System.out.println(min);
         System.out.println(max);
-        //System.out.println(c);
+        System.out.println(c);
 
         // short data type is a 16-bit signed integer
         // byte default value is 0
