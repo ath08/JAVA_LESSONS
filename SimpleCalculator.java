@@ -5,15 +5,15 @@ public class SimpleCalculator {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the first number: ");
 
-		int firstNumber = sc.nextInt();
+		float firstNumber = sc.nextInt();
 
 		System.out.print("Enter second number: ");
 
-		int secondNumber = sc.nextInt();
+		float secondNumber = sc.nextInt();
 		System.out.print("Enter operator: ");
 		String operation = sc.next();
 
-		int result = 0;
+		float result = 0;
 
 		switch(operation){
 			case "+":
